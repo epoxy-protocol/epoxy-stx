@@ -1,0 +1,15 @@
+
+[project]
+name = "epoxy"
+
+[contracts.epoxy-stx-reserve]
+path = "contracts/epoxy-stx-reserve.clar"
+depends_on = ["traits"]
+
+[contracts.epoxy-token]
+path = "contracts/epoxy-token.clar"
+depends_on = ["traits"]
+
+[contracts.traits]
+path = "contracts/traits.clar"
+depends_on = []
